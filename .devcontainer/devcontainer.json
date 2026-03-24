@@ -1,0 +1,8 @@
+{
+  "name": "Warehouse API",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [5000, 5432, 6379, 9092]
+}
