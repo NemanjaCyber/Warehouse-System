@@ -1,11 +1,17 @@
 /workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Application.deps.json
 /workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Application.dll
 /workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Application.pdb
+/workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Domain.dll
+/workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Infrastructure.dll
+/workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Domain.pdb
+/workspaces/Warehouse-System/src/Application/bin/Debug/net10.0/WarehouseSystem.Infrastructure.pdb
+/workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.csproj.AssemblyReference.cache
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.AssemblyInfoInputs.cache
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.AssemblyInfo.cs
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.csproj.CoreCompileInputs.cache
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.sourcelink.json
+/workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/Warehous.0E5B66CF.Up2Date
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.dll
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/refint/WarehouseSystem.Application.dll
 /workspaces/Warehouse-System/src/Application/obj/Debug/net10.0/WarehouseSystem.Application.pdb

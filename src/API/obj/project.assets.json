@@ -676,6 +676,21 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "WarehouseSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.5",
+          "WarehouseSystem.Domain": "1.0.0",
+          "WarehouseSystem.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WarehouseSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WarehouseSystem.Application.dll": {}
+        }
+      },
       "WarehouseSystem.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -2484,6 +2499,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "WarehouseSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/WarehouseSystem.Application.csproj",
+      "msbuildProject": "../Application/WarehouseSystem.Application.csproj"
+    },
     "WarehouseSystem.Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/WarehouseSystem.Domain.csproj",
@@ -2501,6 +2521,7 @@
       "Microsoft.EntityFrameworkCore >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.5",
       "Swashbuckle.AspNetCore >= 10.1.5",
+      "WarehouseSystem.Application >= 1.0.0",
       "WarehouseSystem.Infrastructure >= 1.0.0"
     ]
   },
@@ -2529,6 +2550,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "/workspaces/Warehouse-System/src/Application/WarehouseSystem.Application.csproj": {
+              "projectPath": "/workspaces/Warehouse-System/src/Application/WarehouseSystem.Application.csproj"
+            },
             "/workspaces/Warehouse-System/src/Infrastructure/WarehouseSystem.Infrastructure.csproj": {
               "projectPath": "/workspaces/Warehouse-System/src/Infrastructure/WarehouseSystem.Infrastructure.csproj"
             }
