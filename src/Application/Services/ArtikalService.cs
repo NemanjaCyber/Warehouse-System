@@ -2,11 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using WarehouseSystem.Application.DTOs;
 using WarehouseSystem.Application.Interfaces;
 using WarehouseSystem.Domain.Entities;
-using WarehouseSystem.Infrastructure.Persistence;
 
 namespace WarehouseSystem.Application.Services;
 
-public class ArtikalService(SkladisteDbContext context) : IArtikalService
+public class ArtikalService(IApplicationDbContext context) : IArtikalService
 {
     public async Task<IEnumerable<ArtikalDto>> GetAllAsync()
     {

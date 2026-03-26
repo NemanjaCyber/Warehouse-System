@@ -100,9 +100,11 @@
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Application.dll
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Domain.dll
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Infrastructure.dll
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Infrastructure.pdb
+/workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Application.pdb
 /workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Domain.pdb
 /workspaces/Warehouse-System/src/API/obj/Debug/net10.0/WarehouseSystem.API.csproj.AssemblyReference.cache
 /workspaces/Warehouse-System/src/API/obj/Debug/net10.0/rpswa.dswa.cache.json
@@ -128,5 +130,3 @@
 /workspaces/Warehouse-System/src/API/obj/Debug/net10.0/WarehouseSystem.API.pdb
 /workspaces/Warehouse-System/src/API/obj/Debug/net10.0/WarehouseSystem.API.genruntimeconfig.cache
 /workspaces/Warehouse-System/src/API/obj/Debug/net10.0/ref/WarehouseSystem.API.dll
-/workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Application.dll
-/workspaces/Warehouse-System/src/API/bin/Debug/net10.0/WarehouseSystem.Application.pdb

@@ -681,8 +681,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.5",
-          "WarehouseSystem.Domain": "1.0.0",
-          "WarehouseSystem.Infrastructure": "1.0.0"
+          "WarehouseSystem.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WarehouseSystem.Application.dll": {}
@@ -706,6 +705,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
+          "WarehouseSystem.Application": "1.0.0",
           "WarehouseSystem.Domain": "1.0.0"
         },
         "compile": {

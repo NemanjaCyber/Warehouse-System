@@ -1,16 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using WarehouseSystem.Domain.Entities;
+using WarehouseSystem.Application.Interfaces;
 
 namespace WarehouseSystem.Infrastructure.Persistence;
 
-public class SkladisteDbContext : DbContext
+public class SkladisteDbContext : DbContext, IApplicationDbContext
 {
     public SkladisteDbContext(DbContextOptions<SkladisteDbContext> options) : base(options) { }
 
     // Naše tabele (DbSet-ovi)
     public DbSet<Artikal> Artikli => Set<Artikal>();
     public DbSet<Lokacija> Lokacije => Set<Lokacija>();
-    public DbSet<StanjeZaliha> StanjaZaliha => Set<StanjeZaliha>();
+    public DbSet<StanjeZaliha> StanjeZaliha => Set<StanjeZaliha>();
     public DbSet<TransakcijaZaliha> TransakcijeZaliha => Set<TransakcijaZaliha>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

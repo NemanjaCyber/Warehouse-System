@@ -2,8 +2,10 @@
 /workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Infrastructure.runtimeconfig.json
 /workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Infrastructure.dll
 /workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Infrastructure.pdb
+/workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Application.dll
 /workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Domain.dll
 /workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Domain.pdb
+/workspaces/Warehouse-System/src/Infrastructure/bin/Debug/net10.0/WarehouseSystem.Application.pdb
 /workspaces/Warehouse-System/src/Infrastructure/obj/Debug/net10.0/WarehouseSystem.Infrastructure.csproj.AssemblyReference.cache
 /workspaces/Warehouse-System/src/Infrastructure/obj/Debug/net10.0/WarehouseSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /workspaces/Warehouse-System/src/Infrastructure/obj/Debug/net10.0/WarehouseSystem.Infrastructure.AssemblyInfoInputs.cache

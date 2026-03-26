@@ -65,11 +65,15 @@ namespace WarehouseSystem.Infrastructure.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("KodLokacije")
+                    b.Property<string>("Kod")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("Naziv")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Opis")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -89,14 +93,14 @@ namespace WarehouseSystem.Infrastructure.Migrations
                     b.Property<int>("ArtikalId")
                         .HasColumnType("integer");
 
+                    b.Property<int>("Kolicina")
+                        .HasColumnType("integer");
+
                     b.Property<int>("LokacijaId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("PoslednjeAzuriranje")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<int>("TrenutnaKolicina")
-                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -104,7 +108,7 @@ namespace WarehouseSystem.Infrastructure.Migrations
 
                     b.HasIndex("LokacijaId");
 
-                    b.ToTable("StanjaZaliha");
+                    b.ToTable("StanjeZaliha");
                 });
 
             modelBuilder.Entity("WarehouseSystem.Domain.Entities.TransakcijaZaliha", b =>

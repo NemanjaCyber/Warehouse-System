@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "10.0.5",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1",
+          "WarehouseSystem.Application": "1.0.0",
           "WarehouseSystem.Domain": "1.0.0"
         },
         "runtime": {
@@ -593,6 +594,18 @@
           }
         }
       },
+      "WarehouseSystem.Application/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.5",
+          "WarehouseSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WarehouseSystem.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "WarehouseSystem.Domain/1.0.0": {
         "runtime": {
           "WarehouseSystem.Domain.dll": {
@@ -839,6 +852,11 @@
       "sha512": "sha512-aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==",
       "path": "system.composition.typedparts/9.0.0",
       "hashPath": "system.composition.typedparts.9.0.0.nupkg.sha512"
+    },
+    "WarehouseSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "WarehouseSystem.Domain/1.0.0": {
       "type": "project",

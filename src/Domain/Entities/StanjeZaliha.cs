@@ -9,6 +9,6 @@ public class StanjeZaliha
     public int LokacijaId { get; set; }
     public Lokacija Lokacija { get; set; } = null!;
 
-    public int TrenutnaKolicina { get; set; }
+    public int Kolicina { get; set; }
     public DateTime PoslednjeAzuriranje { get; set; }
 }
