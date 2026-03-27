@@ -72,6 +72,7 @@ public class StanjeZalihaService(IApplicationDbContext context, IKafkaProducer k
                 Poruka = "Zalihe su ispod minimuma!"
             };
 
+            Console.WriteLine($"[DEBUG] Prag dostignut! Šaljem poruku na Kafku za {stanje.Artikal.Naziv}...");
             await kafkaProducer.SendAlertAsync("stock-low-alerts", alert);//ako je trenutna kolicina manja od minimalne dozvoljene,
                                                                     //saljemo alert poruku preko kafka pruducera
         }

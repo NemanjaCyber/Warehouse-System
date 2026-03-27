@@ -25,6 +25,8 @@ builder.Services.AddScoped<IStanjeZalihaService, StanjeZalihaService>();
 
 builder.Services.AddScoped<IKafkaProducer, KafkaProducer>();
 
+builder.Services.AddHostedService<StockAlertConsumer>();//servis koji stalno zivi u pozadini i koji osluskuje topic
+
 // U .NET 10, ovo je dovoljno za osnovni Swagger/OpenApi
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
