@@ -77,4 +77,24 @@ public class ArtikalService(IApplicationDbContext context) : IArtikalService
             await context.SaveChangesAsync();
         }
     }
+
+    public async Task<List<TransakcijaZalihaDto>> GetIstorijaTransakcijaAsync(int artikalId)
+    {
+        return await context.TransakcijeZaliha
+            .Include(t => t.Artikal)
+            .Where(t => t.ArtikalId == artikalId)
+            .OrderByDescending(t => t.DatumVreme)
+            .Select(t => new TransakcijaZalihaDto
+            {
+                Id = t.Id,
+                ArtikalId = t.ArtikalId,
+                ArtikalNaziv = t.Artikal.Naziv,
+                Kolicina = t.Kolicina,
+                Tip = t.Tip.ToString(), // Enum u string
+                DatumVreme = t.DatumVreme,
+                KorisnikId = t.KorisnikId,
+                Napomena = t.Napomena
+            })
+            .ToListAsync();
+    }
 }

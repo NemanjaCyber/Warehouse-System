@@ -36,4 +36,17 @@ public class ArtikliController(IArtikalService artikalService) : ControllerBase
         await artikalService.DeleteAsync(id);
         return NoContent();
     }
+
+    [HttpGet("{id}/istorija")]
+    public async Task<ActionResult<List<TransakcijaZalihaDto>>> GetIstorija(int id)
+    {
+        var istorija = await artikalService.GetIstorijaTransakcijaAsync(id);
+        
+        if (istorija == null || !istorija.Any())
+        {
+            return NotFound($"Nema zabeleženih transakcija za artikal sa ID-jem {id}.");
+        }
+
+        return Ok(istorija);
+    }
 }

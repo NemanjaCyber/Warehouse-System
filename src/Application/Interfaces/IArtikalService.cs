@@ -18,4 +18,6 @@ public interface IArtikalService
     
     // Brišemo po ID-u
     Task DeleteAsync(int id);
+
+    Task<List<TransakcijaZalihaDto>> GetIstorijaTransakcijaAsync(int artikalId);
 }
